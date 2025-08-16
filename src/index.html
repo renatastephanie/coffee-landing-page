@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeLove Landing Page</title>
+    <link rel="stylesheet" href="/src/styles/style.css">
+
+</head>
+
+<body>
+    <!-- MENU -->
+    <header class="navbar">
+        <img src="/src/assets/CoffeeLove.svg" alt="Logo CoffeeLove" class="logo">
+        <nav>
+            <a href="#" class="ativo">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Delivery</a>
+        </nav>
+
+        <!-- BUSCA E CARRINHO-->
+        <div class="search-cart">
+            <div class="search-box">
+                <input type="text" placeholder="Buscar...">
+                <span>
+                    <img src="/src/assets/icons-search.png" class="search-icon" alt="Lupa">
+                </span>
+            </div>
+            <span>
+                <img src="/src/assets/icons-cart.png" class="cart-icon" alt="Carrinho">
+            </span>
+        </div>
+    </header>
+
+    <!-- MEIO BANNER -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>
+                O <span class="highlight-coffee">café</span> pelo qual você <br>
+                vai se <span class="highlight-love">apaixonar</span>.
+            </h1>
+            <p>Beba, saboreie e espalhe o amor - onde cada xícara é um abraço cafeinado em nosso aconchegante refúgio de
+                café!</p>
+
+            <button class="order-btn"> Peça Agora<span>☕</span></button>
+        </div>
+
+        <!-- IMAGEM DOS GRÃOS DE CAFÉ -->
+        <div class="hero-image">
+            <img src="/src/assets/hero-coffee-beans.png" alt="Imagem de café">
+        </div>
+    </section>
+
+    <!-- BOTÕES DE CATEGORIA -->
+    <section class="categories">
+        <div class="category-btn ativo" data-category="hot">
+            <span>
+                <img src="/src/assets/hot-coffee.png" class="cat-icon" alt="ícone de café quente">
+            </span>
+            <span>HOT COFFEE</span>
+        </div>
+
+        <div class="category-btn" data-category="cold">
+            <span>
+                <img src="/src/assets/cold-coffee.png" class="cat-icon" alt="ícone de café gelado">
+            </span>
+            <span>COLD COFFEE</span>
+        </div>
+
+        <div class="category-btn" data-category="tea">
+            <span>
+                <img src="/src/assets/tea.png" class="cat-icon" alt="ícone de chá">
+            </span>
+            <span>TEA</span>
+        </div>
+
+        <div class="category-btn" data-category="dessert">
+            <span>
+                <img src="/src/assets/dessert.png" class="cat-icon" alt="ícone de sobremesa">
+            </span>
+            <span>DESSERT</span>
+        </div>
+    </section>
+
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+
+    <script src="/src/scripts/main.js"></script>
+
+</body>
+
+</html>
