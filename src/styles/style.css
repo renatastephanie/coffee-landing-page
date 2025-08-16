@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
     font-family: 'poppins', Arial, sans-serif;
     margin: 0;
@@ -11,7 +18,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 24px 48px 0 48px;
-    background-color: #f8f8f8;
 }
 
 .logo {
@@ -80,8 +86,10 @@ body {
     min-height: 780px;
 }
 
+
 .hero-text {
     max-width: 420px;
+    
 }
 
 .hero-text h1 {
